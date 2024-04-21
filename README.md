@@ -31,7 +31,7 @@ To run this code, please ensure you have the following dependencies installed:
 - fire>=0.4.0
 - gunicorn>=20.1.0
 
-You can install these dependencies using pip: pip install -r requirements.txt
+You can install these dependencies using pip: `pip install -r requirements.txt`
 
 Make sure to replace `requirements.txt` with the actual name of your requirements file, if different.
 
@@ -42,7 +42,3 @@ After installing the dependencies, you can run the project by executing the main
 ## Contribution
 
 Contributions are welcome! If you have any ideas for improvement, new features to add, or bug fixes, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
