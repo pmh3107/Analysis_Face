@@ -1,5 +1,5 @@
 from pathlib import Path
-from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
+from tkinter import Tk, Canvas, messagebox, Button, PhotoImage
 from guiAnalysisFace import analyze_face_accurate
 from guiManual import show_user_manual
 from guiPredictFace import predict_age_gender
@@ -12,7 +12,8 @@ def main():
     def relative_to_assets(path: str) -> Path:
         return ASSETS_PATH / Path(path)
 
-    window = Tk()
+    window = Tk("ANALYSIS FACE")
+    window.title("ANALYSIS FACE")
     window.geometry("900x600")
     window.configure(bg="#FFFFFF")
 
@@ -113,7 +114,7 @@ def main():
         anchor="nw",
         text="Analyze Face",
         fill="#FFFFFF",
-        font=("Inter ExtraBold", 40 * -1)
+        font=("Inter", 40, "bold")
     )
 
     canvas.create_text(
@@ -122,7 +123,7 @@ def main():
         anchor="nw",
         text="Wellcome to ",
         fill="#000000",
-        font=("Inter ExtraBold", 40 * -1)
+        font=("Inter", 35, "bold")
     )
 
     canvas.create_text(
@@ -131,7 +132,7 @@ def main():
         anchor="nw",
         text="Analysis Face !",
         fill="#000000",
-        font=("Inter ExtraBold", 40 * -1)
+        font=("Inter", 35, "bold")
     )
 
     canvas.create_text(
@@ -140,7 +141,7 @@ def main():
         anchor="nw",
         text="Options ....",
         fill="#000000",
-        font=("Inter ExtraBold", 40 * -1)
+        font=("Inter", 35, "bold")
     )
 
     image_image_1 = PhotoImage(

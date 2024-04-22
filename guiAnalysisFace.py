@@ -1,5 +1,5 @@
 from pathlib import Path
-from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
+from tkinter import Canvas, Button, PhotoImage
 from Analysis_Face import *
 
 def back_to_main(back_to_main_screen, window):

@@ -50,7 +50,7 @@ def show_user_manual(window, back_to_main_screen):
         anchor="nw",
         text="Analyze Face",
         fill="#FFFFFF",
-        font=("Inter ExtraBold", 40 * -1)
+        font=("Inter", 35, "bold")
     )
 
     canvas.create_text(
@@ -59,7 +59,7 @@ def show_user_manual(window, back_to_main_screen):
         anchor="nw",
         text="User manual",
         fill="#000000",
-        font=("Inter ExtraBold", 40 * -1)
+        font=("Inter", 32, "bold")
     )
 
     canvas.create_text(
@@ -68,7 +68,7 @@ def show_user_manual(window, back_to_main_screen):
         anchor="nw",
         text="Analysis Face !",
         fill="#000000",
-        font=("Inter ExtraBold", 40 * -1)
+        font=("Inter", 32, "bold")
     )
 
     image_image_1 = PhotoImage(
@@ -83,9 +83,9 @@ def show_user_manual(window, back_to_main_screen):
         450.0,
         151.0,
         anchor="nw",
-        text="Usage options:\n\n  1. Accurate facial analysis:     \n       - Analyze faces using photos from the camera.     \n       - Analysis from imported image files.\n\n2. Real-time facial analysis",
+        text="Usage options:\n\n  1. Accurate facial analysis:\n       - Analyze faces using photos \nfrom the camera.\n       - Analysis from imported \nimage files.\n\n  2. Real-time facial analysis",
         fill="#FFFFFF",
-        font=("Inter SemiBold", 22 * -1)
+        font=("Inter", 20, "bold")
     )
     button_image_1 = PhotoImage(
         file=relative_to_assets("button_1.png"))
