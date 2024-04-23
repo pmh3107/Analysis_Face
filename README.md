@@ -64,11 +64,19 @@ After installing the dependencies, you can run the project by executing the main
 
 ## Theme of the Project
 
+This is a theme of the project:
+
 ![PrimaryTheme](https://firebasestorage.googleapis.com/v0/b/mycv-3107.appspot.com/o/Project_Analysis_Face%2FTheme_main.png?alt=media&token=a6133dbd-e718-426b-ad65-56912c4c3086)
+
+![MenuTheme](https://firebasestorage.googleapis.com/v0/b/mycv-3107.appspot.com/o/Project_Analysis_Face%2FTheme_Menu.png?alt=media&token=125cac64-a445-42cf-8dc9-5cf729d84a1b)
+
+![SecondaryTheme](https://firebasestorage.googleapis.com/v0/b/mycv-3107.appspot.com/o/Project_Analysis_Face%2FTheme_Predict_Face.png?alt=media&token=53d245a8-21f6-473c-83c9-ed42e27b1483)
+
+![TertiaryTheme](https://firebasestorage.googleapis.com/v0/b/mycv-3107.appspot.com/o/Project_Analysis_Face%2FTheme_Analysis_Face.png?alt=media&token=c71cecd9-8c3f-4513-b7c4-e1a06e0b5899)
 
 ## How I made it ...
 
-## Explanation of **main**() Function
+### Explanation of **main**() Function
 
 The `__main__()` function in the code is responsible for setting up the main graphical user interface (GUI) window of the "ANALYSIS FACE" application. Below is a breakdown of its components and functionalities:
 
@@ -95,7 +103,7 @@ The `__main__()` function in the code is responsible for setting up the main gra
 
 This code sets up the primary user interface of the "ANALYSIS FACE" application, allowing users to interact with various features related to face analysis.
 
-## Explanation of `show_user_manual()` Function
+### Explanation of `show_user_manual()` Function
 
 The `show_user_manual()` function is responsible for displaying the user manual interface in the "ANALYSIS FACE" application. Here's a breakdown of its components and functionalities:
 
@@ -124,7 +132,7 @@ The `show_user_manual()` function is responsible for displaying the user manual 
 
 This function enhances the user experience by providing clear instructions and usage options for the "ANALYSIS FACE" application.
 
-## Explanation of `predict_age_gender()` Function
+### Explanation of `predict_age_gender()` Function
 
 The `predict_age_gender()` function is responsible for displaying the interface to predict age and gender using the camera feed in the "ANALYSIS FACE" application. Here's a breakdown of its components and functionalities:
 
@@ -154,7 +162,7 @@ The `predict_age_gender()` function is responsible for displaying the interface 
 
 This function enhances the user experience by providing real-time age and gender prediction using the camera feed in the "ANALYSIS FACE" application.
 
-## Explanation of `analyze_face_accurate()` Function
+### Explanation of `analyze_face_accurate()` Function
 
 The `analyze_face_accurate()` function is responsible for displaying the interface to analyze faces accurately in the "ANALYSIS FACE" application. Here's a breakdown of its components and functionalities:
 
@@ -188,7 +196,7 @@ The `analyze_face_accurate()` function is responsible for displaying the interfa
 
 This function provides users with the ability to analyze faces accurately using the camera feed or image files in the "ANALYSIS FACE" application.
 
-## Explanation of Face Detection and Recognition Functions
+### Explanation of Face Detection and Recognition Functions
 
 This code contains functions for face detection and recognition using OpenCV in Python. Here's a breakdown of its components and functionalities:
 
@@ -215,7 +223,7 @@ This code contains functions for face detection and recognition using OpenCV in 
 
 This code provides a simple yet effective solution for real-time face detection, age estimation, and gender estimation using OpenCV in Python.
 
-## Face Analysis and Recognition Functions
+### Face Analysis and Recognition Functions
 
 This code contains functions for analyzing and recognizing faces using DeepFace and OpenCV in Python. Below is an explanation of each function:
 
